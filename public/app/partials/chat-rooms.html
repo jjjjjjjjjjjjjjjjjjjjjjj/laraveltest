@@ -1,0 +1,14 @@
+sdf
+<div class="row">
+	<div class="col-md-12">
+		<select class="form-control" ng-model="selectedChatRoom" ng-optoins="chatRoo.name chatRoom in chatRooms">
+			
+		</select>	
+		<button type="button" ng-click="selectChatRoom(selectedChatRoom)">Select chat room</button>
+	</div>
+	<div class="col-md-12">
+		<input type="text" class="form-control" ng-model="chatRoom.name" placeholder="Enter chat room name">
+		<button type="button" ng-click="createChatRoom(chatRoom)">Create new chat room </button>
+	</div>
+
+</div>
